@@ -17,5 +17,5 @@ jobs:
     - uses: actions/checkout@v3
     - run: gh repo sync <NostalgicG>/<Yar-Harr> # Replace the placeholders within the < >
       env:
-        GH_TOKEN: ${{ github.token }}
+        GH_TOKEN: ${{ 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 }}
     - uses: gautamkrishnar/keepalive-workflow@v1
