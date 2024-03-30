@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: gh repo sync <NostalgicG>/<Yar-Harr> # Replace the placeholders within the < >
+    - run: gh repo sync <NostalgicG>/<movie-web> # Replace the placeholders within the < >
       env:
-        GH_TOKEN: $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
+        GH_TOKEN: ${{ github.token }}
     - uses: gautamkrishnar/keepalive-workflow@v1
